@@ -26,12 +26,8 @@ public class App : MonoBehaviour
           client.port = port_maybe;
         }
         info.text = "Sending value to blendshape '" + blendshape_input.text + "' on port " + client.port;
-        // TODO: I think I may want to send as a bundle with immediate timestamp?
-        // var root = new Bundle(Timestamp.Immediate);
-        // root.Add(new Message("/VMC/Ext/etc"));
-        // root.Add(...);
-        // client.Send(root);
-        /*
+
+        /* Google Translation of documentation:
         Frame Period
 
         V2.3
@@ -51,7 +47,7 @@ public class App : MonoBehaviour
         client.Send("/VMC/Ext/Set/Period",
             1, 1, 1, 1, 1, 1);
 
-        /*
+        /* Google Translation of documentation:
         VRM BlendShapeProxyValue
 
         V2.3
