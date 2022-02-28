@@ -10,8 +10,8 @@ I'm using https://github.com/hecomi/uOSC/releases to send, idk how to properly p
 
 To properly combine this with VSeeFace tracking:
 
-Settings > General Settings
-Enable 'OSC/VMC Receiver (disables tracking)'
-Enable 'Apply VSeeFace tracking' below that and make sure everything is enabled
-Enable 'Secondary OSC/VMC protocol receiver'. This is where we send the slider value, so the port number should correspond to the one in the slider app.
-Enable 'Apply Blendshapes' beneath that.
+- Settings > General Settings
+- Enable 'OSC/VMC Receiver (disables tracking)'
+- Enable 'Apply VSeeFace tracking' below that and make sure everything is enabled
+- Enable 'Secondary OSC/VMC protocol receiver'. This is where we send the slider value, so the port number should correspond to the one in the slider app.
+- Enable 'Apply Blendshapes' beneath that.
