@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 81eddb23d3b85224d905779308c8907e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Protomo
+  fontNames:
+  - Protomo
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: ea9eb11a913fac24da971f08d33cf580, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
